@@ -10,7 +10,7 @@ body{
     background-color: antiquewhite;
 
 }
-.content{
+.content, .container{
     width: 1000px;
     margin:20px  auto;
     box-shadow: 0 20px 40px rgb(189, 128, 84);
@@ -22,21 +22,27 @@ body{
 }
 header{
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
 }
 img{
-    width: 100%;
+    width: 500px;
     height: 50px;
     border: 2px dashed brown;
     padding: 2px;
 }
+
 .logo{
     background-color: burlywood;
     padding: 10px;
+    width: 500px;
     border-radius:  15px 15px 0 0;
     color: brown;
     text-decoration: underline;
     font-size: 26px;
+    text-align: center;
+}
+h2::first-letter {
+    color: red;
 }
 .paragred{
      margin-bottom: 30px ;
@@ -78,4 +84,66 @@ td:nth-child(2){
     position:absolute;
     right: 20px;
     bottom: 50px;
+}
+input{
+    padding: 10px;
+   
+    border-radius: 15px;
+    background-color: inherit;
+    border: 1px dashed brown;
+    width: 600px;
+    margin: 20px auto;
+    display: block;
+    outline: none;
+    color: white;
+    font-style: italic;
+}
+input::placeholder{
+    color: rgb(155, 76, 76);
+}
+/* second page */
+.container-content{
+    padding: 40px;
+}
+.header-container{
+    height: 0; 
+    width: 200px;
+    border-top: 50px solid #ac702a;
+    border-right: 25px solid transparent;
+    position: relative;
+}
+.header-container h1{
+    position: absolute;
+    top: -45px;
+    left: 30px;
+}
+/* .main-container{
+    width: 400px;
+} */
+.main-container p{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+h3::first-letter{
+    color: crimson;
+    font-size: 30px;
+}
+.footer-container{
+    margin-top: 30px;
+}
+.lists{
+    width: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.lists p{
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+ol{
+    font-size: medium;
+    font-weight: 400;
 }
