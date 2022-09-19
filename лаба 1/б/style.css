@@ -9,6 +9,7 @@ body{
 .main{
     width: 100%;
     height: 100vh;
+    padding-top: 50px;
 }
 .line-1{
     background-image: url(img/1612356421_10-p-fon-dlya-prezentatsii-kofeinie-zerna-20.jpg);
@@ -23,12 +24,11 @@ body{
 }
 td{
     border: 1px solid black;
-    height: 800px;
+    height: 300px;
 }
 table{
-    width: 1500px;
- 
-    margin: 50px auto;
+    width: 800px;
+    margin: auto;
     border-collapse: collapse
 }
 .line-1{
@@ -38,19 +38,22 @@ table{
 }
 .first{
     color: brown;
-    font-size: 25px;
+    font-size: 15px;
+    text-indent: 35px;
 }
 .second{
     color: chocolate;
-    font-size: 25px;
+    font-size: 15px;
+    text-indent: 35px;
 }
 .third{
     color: crimson;
-    font-size: 25px;
+    font-size: 15px;
+    text-indent: 35px;
 }
 img{
-    width: 450px;
-    height: 350px;
+    width: 200px;
+    height: 150px;
     position: absolute;
 }
 .line-2{
@@ -58,24 +61,24 @@ img{
     background-color: antiquewhite;
 }
 .img-1{
-    top: 10%;
-    left: 10%;
+    top: 5%;
+    left: 5%;
     opacity: 0.5;
 }
 .img-2{
-    top: 30%;
-    left: 30%;
+    top: 25%;
+    left: 25%;
     opacity: 0.7;
 }
 .img-3{
-    top: 50%;
-    left: 50%;
+    top: 45%;
+    left: 45%;
     opacity: 0.9;
 }
 .rotate{
     background-color: red;
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     border-radius: 15px;
     position: absolute;
     animation: move-rotate 15s infinite  ease-in-out  ;
@@ -99,7 +102,7 @@ img{
     top: 10%;
     left: 10%;
     transform: rotate(0deg);
-        background-color: rgb(65, 23, 23);
-        opacity: 1;
+    background-color: rgb(65, 23, 23);
+    opacity: 1;
     } 
 }
